@@ -1,6 +1,6 @@
 # personal_projects
 
-This repository has several personal projects or code practice.
+This repository has several projects
 
 The NFL project came about during a football game last year when overhearing an announcer talk about how good a QB is in the cold.
 I wanted to see if there were any stand out QBs in cold/hot weather or if temperature made a neglegable difference. 
@@ -8,3 +8,5 @@ I wanted to see if there were any stand out QBs in cold/hot weather or if temper
 
 SQL Medical Data uses a generated SQL database using a star schema. The Excel file was provided and then imported into Microsoft SQL 
 Server Management Studio for analysis. Questions range in difficulty. More will be added over time.
+
+Cyclistic Case Study is the Google Data Analytics capstone analysis. It was done using Excel, SQL, Tableau, and Python. The folder will contain python and SQL code and links to Excel analysis and Tableau Vizs
