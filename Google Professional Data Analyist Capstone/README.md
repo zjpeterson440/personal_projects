@@ -1,4 +1,4 @@
-# Google Professional Data Analyist Capstone
+# Google Professional Data Analytics Capstone
 
 This study was done using Excel, Tableau, Python, and SQL. While most of the cleaning and analysis was done in Python and Tableau respectivly further analysis will be conducted using Excel (Pivot Tables/Graphs) and SQL (with SSMS).
 The filles will be uploaded here when completed
