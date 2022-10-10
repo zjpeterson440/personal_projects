@@ -33,7 +33,7 @@ Imported, merged, and cleaned weather and QB data
 Added a win/loss column
 `add_win_loss_column.ipynb`
 
-Created 5 and 10 degree bins for temperature rannges for each QB.
+Created 5 and 10 degree bins for temperature rannges for each QB. Will be used in Tableau for visual analysis.
 `top_30_qbs_temp_bins_w_win_percent_cleaned.csv`
 * `qb_name` - Name of the QB
 * `min_t` - Minimum temperature in the bin range (used for Excel formulas)
