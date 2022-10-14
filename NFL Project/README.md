@@ -30,8 +30,10 @@ Imported, merged, and cleaned weather and QB data
 .CSV file created after merging and cleaning DataFrames in Python. Will used in Excel for further cleaning.
 `qb_for_analysis.csv`
 
-Added a win/loss column
-`add_win_loss_column.ipynb`
+Added two new variables in `add_win_loss_column.ipynb`
+* `win_loss`- used `Result` variable to determine if the QB won or lost (1-win, 0-loss)
+* `margin_victory` - used `Result` column to determine margin of victory (negative in a loss)
+
 
 Created 5 and 10 degree bins for temperature rannges for each QB. Will be used in Tableau for visual analysis.
 `top_30_qbs_temp_bins_w_win_percent_cleaned.csv`
