@@ -32,7 +32,7 @@ Imported, merged, and cleaned weather and QB data
 
 Added two new variables in `add_win_loss_column.ipynb`
 * `win_loss`- used `Result` variable to determine if the QB won or lost (1-win, 0-loss)
-* `margin_victory` - used `Result` column to determine margin of victory (negative in a loss)
+* `margin_victory` - used `Result` variable to determine margin of victory (negative in a loss)
 
 
 Created 5 and 10 degree bins for temperature rannges for each QB. Will be used in Tableau for visual analysis.
