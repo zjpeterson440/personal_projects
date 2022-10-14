@@ -47,12 +47,11 @@ Created 5 and 10 degree bins for temperature rannges for each QB. Will be used i
 * `yds` - Yards thrown 
 * `td` - TDs thrown 
 * `int` - Interceptions 
-* `dew_point` - Dew point for the game
 * `humidity` - Humidity for the game
 * `percip` - Ammount of precpitation
-* `wind` - Wind strength in mph
-* `pressure` - Atmospheric Pressure
-* `game_count` - Number of games played in the temperature ranges
+* `windspeed` - Wind strength in mph
+* `margin_victory` - Margin of victory for the game. Negative number is a loss, positive a win
 * `win_percent` - Win percentage of games played in the temperature ranges
+* `game_count` - Number of games played in the temperature ranges
 * `temps` - Temperature range
 
