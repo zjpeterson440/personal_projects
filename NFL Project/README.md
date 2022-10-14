@@ -27,16 +27,18 @@ Imported, merged, and cleaned weather and QB data
 * `RT` - Rounded temperature of the game
 * `RoofType` - Roof type (0 - Outdoor/Partially Covered, 1 - Dome)
 
-.CSV file created after merging and cleaning DataFrames in Python. Will used in Excel for further cleaning.
-`qb_for_analysis.csv`
+.CSV file created after merging and cleaning DataFrames in Python `qbs_for_viz.csv`
+
 
 Added two new variables in `add_win_loss_column.ipynb`
 * `win_loss`- used `Result` variable to determine if the QB won or lost (1-win, 0-loss)
 * `margin_victory` - used `Result` variable to determine margin of victory (negative in a loss)
 
+Exported .CSV for further cleaning and manipulation in Excel `qb_analysis_winloss_marginvictory.csv`
+
 
 Created 5 and 10 degree bins for temperature rannges for each QB. Will be used in Tableau for visual analysis.
-`top_30_qbs_temp_bins_w_win_percent_cleaned.csv`
+`qb_bins_cleaned_for_viz.csv`
 * `qb_name` - Name of the QB
 * `min_t` - Minimum temperature in the bin range (used for Excel formulas)
 * `max_t` - Maximum temperature in the bin range (used for Excel formulas)
