@@ -26,6 +26,8 @@ Imported, merged, and cleaned weather and QB data
 * `StadiumName` - Name of the stadium the game is played in
 * `RT` - Rounded temperature of the game
 * `RoofType` - Roof type (0 - Outdoor/Partially Covered, 1 - Dome)
+* `Longitude` - Stadium coordinates (decimal format)
+* `Latitude` - Stadium coordinates (decimal format)
 
 .CSV file created after merging and cleaning DataFrames in Python `qbs_for_viz.csv`
 
