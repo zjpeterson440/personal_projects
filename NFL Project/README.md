@@ -32,11 +32,9 @@ Imported, merged, and cleaned weather and QB data
 .CSV file created after merging and cleaning DataFrames in Python `qbs_for_viz.csv`
 
 
-Added two new variables in `add_win_loss_column.ipynb`
+Added two new variables in `qb_bins_cleaned_for_viz.ipynb`
 * `win_loss`- used `Result` variable to determine if the QB won or lost (1-win, 0-loss)
 * `margin_victory` - used `Result` variable to determine margin of victory (negative in a loss)
-
-Exported .CSV for further cleaning and manipulation in Excel `qb_analysis_winloss_marginvictory.csv`
 
 
 Created 5 and 10 degree bins for temperature rannges for each QB. Will be used in Tableau for visual analysis.
@@ -56,4 +54,22 @@ Created 5 and 10 degree bins for temperature rannges for each QB. Will be used i
 * `win_percent` - Win percentage of games played in the temperature ranges
 * `game_count` - Number of games played in the temperature ranges
 * `temps` - Temperature range
+
+
+Used weather .CSV to determine average stadium temperatures for all games since 2000.
+
+* `date` - Game date
+* `DewPoint` - Average dewpoint
+* `Humidity` - Average humidity
+* `Precipitation` - Precipitation
+* `WindSpeed` - Wind speed measured in mph
+* `EstimatedCondition` - Estimated weather condition based on game time weather if there is no information
+* `StadiumName` - Name of the stadium the game is played in
+* `RT` - Rounded temperature of the game
+* `RoofType` - Roof type (0 - Outdoor/Partially Covered, 1 - Dome)
+* `Longitude` - Stadium coordinates (decimal format)
+* `Latitude` - Stadium coordinates (decimal format)
+* `GameLoc ` - Location of the game (team abbreviation)
+
+
 
