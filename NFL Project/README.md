@@ -6,7 +6,7 @@ Extrated data with webscraping from [Pro Football Reference](https://www.pro-foo
 ## Files
 
 Imported, merged, and cleaned weather and QB data
-`qb_stats_and_weather.ipynb`
+`qb_stats_50_qbs.ipynb`
 * `Date` - Name of the QB
 * `H/A` - Home game (H) or away game (A)
 * `Opp` - Team opponent using 3 letter abreviation (Used in Pro Football Reference)
@@ -29,16 +29,17 @@ Imported, merged, and cleaned weather and QB data
 * `Longitude` - Stadium coordinates (decimal format)
 * `Latitude` - Stadium coordinates (decimal format)
 
-.CSV file created after merging and cleaning DataFrames in Python `qbs_for_viz.csv`
+.CSV file created after merging and cleaning DataFrames in Python `qb_top_2000s_viz`
 
 
-Added two new variables in `qb_bins_cleaned_for_viz.ipynb`
+Added two new variables in `qb_top_2000s_viz` in `win_loss_margin_victory.ipynb`
 * `win_loss`- used `Result` variable to determine if the QB won or lost (1-win, 0-loss)
 * `margin_victory` - used `Result` variable to determine margin of victory (negative in a loss)
 
+Saved as `qb_analysis_final.csv`
 
-Created 5 and 10 degree bins for temperature rannges for each QB. Will be used in Tableau for visual analysis.
-`qb_bins_cleaned_for_viz.csv`
+Imported `qb_analysis_final.csv` and created  10 degree bins for temperature rannges for each QB using PivotTables. Also added which college each QB played for and classified those colleges in to 4 new variables  `Cold `, `Neutral`,`Warm`, and `Indoor`.  Will be used in Tableau for visual analysis.
+`qb_analysis_final_for_viz.xlsx`
 * `qb_name` - Name of the QB
 * `min_t` - Minimum temperature in the bin range (used for Excel formulas)
 * `max_t` - Maximum temperature in the bin range (used for Excel formulas)
@@ -54,7 +55,8 @@ Created 5 and 10 degree bins for temperature rannges for each QB. Will be used i
 * `win_percent` - Win percentage of games played in the temperature ranges
 * `game_count` - Number of games played in the temperature ranges
 * `temps` - Temperature range
-
+* `home_away` - Converted the H/A variable to a numerical value
+* `college class` - Categorizes each QB into the weather they had while playing for their college. `Cold `, `Neutral`,`Warm`, and `Indoor`. Temperatures are based off the school they played their final year at (ex. Russell Wilson NC State -> Wisconson)
 
 Used weather .CSV to determine average stadium temperatures for all games since 2000.
 
