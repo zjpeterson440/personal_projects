@@ -56,7 +56,8 @@ Imported `qb_analysis_final.csv` and created  10 degree bins for temperature ran
 * `game_count` - Number of games played in the temperature ranges
 * `temps` - Temperature range
 * `home_away` - Converted the H/A variable to a numerical value
-* `college class` - Categorizes each QB into the weather they had while playing for their college. `Cold `, `Neutral`,`Warm`, and `Indoor`. Temperatures are based off the school they played their final year at (ex. Russell Wilson NC State -> Wisconson)
+* `college class` - Categorizes each QB into the weather they had while playing for their college. `Cold `, `Neutral`,`Warm`, and `Indoor`. 
+        (Temperatures are based off the school they played their final year at ex. Russell Wilson NC State -> Wisconson)
 
 Used weather .CSV to determine average stadium temperatures for all games since 2000.
 
