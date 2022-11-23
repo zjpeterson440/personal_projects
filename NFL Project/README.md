@@ -1,7 +1,7 @@
 # NFL QB Weather Project
 
 
-Extrated data with webscraping from [Pro Football Reference](https://www.pro-football-reference.com/) and used already compiled weather data from [here](https://www.datawithbliss.com/weather-data) which was then cross referenced with other NFL weather sites for accuracy
+Extrated data with webscraping from [Pro Football Reference](https://www.pro-football-reference.com/) and used already compiled weather data from [here](https://www.datawithbliss.com/weather-data) which was then cross referenced with other NFL weather sites for accuracy. The interactive Viz can be found [here](https://public.tableau.com/app/profile/zach.j.peterson) on Tableau.
 
 ## Files
 
