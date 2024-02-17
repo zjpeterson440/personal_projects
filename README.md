@@ -12,3 +12,10 @@ Cyclistic Case Study is the Google Data Analytics capstone analysis.  The full r
 * `Python`
 * `Excel`
 * `SQL (SSMS)`
+
+
+I really like to cook but finding recipes can be a pain. This project scrapes popular websites and will put recipe information in a database. That database will then be connected to some form of user interface. Here the user will be able to filter based on ingredients, star ratings, nutrition info ect.
+The end result of the project will be something that provides cursorary information and a link to the website's recipe.
+* `Python`
+* `SQL (SSMS)`
+* `Azure DB`
