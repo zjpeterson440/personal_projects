@@ -1,5 +1,5 @@
 The `healthcare_data_worksheet.xlsx` is a fictional Healthcare database designed to practice SQL queries on healthcare datasets.
-It uses a star schema and has thousands of records. The SQL code in `Questions.sql` was written in `SQL Server Management Studio` and will continually added to and updated.
+It uses a star schema and has thousands of records. The SQL code in `Questions.sql` was written in `SQL Server Management Studio`
 
 
 Variables in Database:
