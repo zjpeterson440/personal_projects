@@ -1,8 +1,0 @@
-<Solution>
-  <Folder Name="/src/">
-    <Project Path="src/Warhammer.Rules/Warhammer.Rules.csproj" />
-  </Folder>
-  <Folder Name="/tests/">
-    <Project Path="tests/Warhammer.Rules.Tests/Warhammer.Rules.Tests.csproj" />
-  </Folder>
-</Solution>
