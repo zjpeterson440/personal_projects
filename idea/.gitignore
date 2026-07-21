@@ -1,0 +1,28 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+[Ll]og/
+artifacts/
+
+# Godot 4
+.godot/
+.import/
+export.cfg
+export_presets.cfg
+*.translation
+
+# Mono
+mono_crash.*
+data_*/
+
+# IDEs
+.vs/
+.idea/
+*.csproj.user
+*.sln.DotSettings.user
+
+# OS
+Thumbs.db
+desktop.ini
